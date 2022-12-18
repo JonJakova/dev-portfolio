@@ -148,14 +148,15 @@ const via_egnatia = [
     title: "VIA EGNATIA 2.0",
     subtitle: "Winner",
     image: "assets/images/experience-page/via_egnatia_hackathon.png",
-    desp: "Hackathon to develop digital tourism of the archaeological site of Apollonia, a rich and important city of Illyria founded by colonists from Corinth and ancient Corfu around 600 BC..",
+    desp: "Hackathon to develop digital tourism of the archaeological site of Apollonia, a rich and important city of Illyria founded by colonists from Corinth and ancient Corfu around 600 BC.",
+    href: "https://museonazionaleromano.beniculturali.it/en/2020/11/via-egnatia-2-0/",
   },
 ];
 
 const showCards3 = () => {
   let output = "";
   via_egnatia.forEach(
-    ({ title, image, subtitle, desp }) =>
+    ({ title, image, subtitle, desp, href }) =>
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
@@ -165,7 +166,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a target="_blank" href="https://museonazionaleromano.beniculturali.it/en/2020/11/via-egnatia-2-0/" class="blog-slider__button">Read More</a>   
+          <a href="${href}" target="_blank" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
