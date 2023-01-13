@@ -94,41 +94,42 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/coding.jpg",
     description:
       "BASIC compiler written in C#.",
+    url: "https://github.com/JonJakova/rin"
   },
   {
     title: "SPYCAM - Python Security Camera",
     cardImage: "assets/images/experience-page/coding.jpg",
     description:
       "A python based security camera that can be used to monitor a room. It uses OpenCV to detect motion and send an email to the user.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/coding.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+    url:"https://github.com/JonJakova/spycam"
   },
   {
     title: "Movie Chart",
     cardImage: "assets/images/experience-page/coding.jpg",
     description:
       "A platform which displays information about future and past movies releases. It auto-updated daily.",
+    url:"https://github.com/JonJakova/movie-chart"
   },
   {
     title: "LunaDB",
     cardImage: "assets/images/experience-page/coding.jpg",
     description:
       "A simple key-value pair storage implemented in Rust.",
+    url:"https://github.com/JonJakova/luna_db"
   },
 ];
 
 const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
+    ({ title, cardImage, description, url }) =>
       (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      <a href="${url}" target="_blank" rel="noopener noreferrer">
+        <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      </a>
+      
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
