@@ -102,12 +102,6 @@ const volunteershipcards = [
       "A python based security camera that can be used to monitor a room. It uses OpenCV to detect motion and send an email to the user.",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/coding.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
     title: "Movie Chart",
     cardImage: "assets/images/experience-page/coding.jpg",
     description:
