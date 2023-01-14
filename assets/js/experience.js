@@ -9,10 +9,10 @@ const exp = [
     cardImage: "assets/images/experience-page/sabanet_log.jpeg",
     place: "Sabanet Albania",
     time: "(June, 2021 - present)",
-    desp: "As the CTO at Sabanet Albania, my main duties consist of (but are not limited to): <li>Managing the development team.</li> <li>Making key software architectural decision..</li> <li>Identifying risks and mitigating them.</li><li>Interviewing candidates for technical positions.</li><li>Enabling communication between our team and our oversea colleagues</li>",
+    desp: "As the CTO at Sabanet Albania, my main duties consist of (but are not limited to): <li>Managing the development team.</li> <li>Making key software architectural decision.</li> <li>Identifying risks and mitigating them.</li><li>Interviewing candidates for technical positions.</li><li>Enabling communication between our team and our oversea colleagues.</li>",
   },
   {
-    title: "SOFTWARE DEVELOPER ",
+    title: "SOFTWARE ENGINEER ",
     cardImage: "assets/images/experience-page/bnt_electronics_logo.png",
     place: "BNT ELECTRONICS",
     time: "(Jan - Jun, 2021)",
@@ -26,11 +26,11 @@ const exp = [
     desp: "<li>Lesson giving in Python, Java and C# programming to students starting from highschool up to graduate.</li>",
   },
   {
-    title: "SOFTWARE DEVELOPER",
+    title: "LEAD SOFTWARE ENGINEER",
     cardImage: "assets/images/experience-page/vesa_solution_logo.png",
     place: " VESA SOLUTIONS",
     time: "(Jan, 20 - Dec, 20)",
-    desp: "<li>Software Developer at Vesa Solutions. My duties consist of overseeingthe development of our applications from the planning stage to thedeployment and maintenance stage as well as developing stage, leadingour developer team and training new recruits.</li><li>The technologies I use include: NodeJs (ExpressJs, NestJs), React, Angular, Python (Django).</li><li>All of the project I have worked on (aside from the one that were implemented in Django) have their back-end implemented with NodeJs (either ExpressJs or NestJs).</li>",
+    desp: "<li>Software Developer at Vesa Solutions. My duties consist of overseeingthe development of our applications from the planning stage to the deployment and maintenance stage as well as developing stage, leadingour developer team and training new recruits.</li><li>The technologies I use include: NodeJs (ExpressJs, NestJs), React, Angular, Python (Django).</li><li>All of the project I have worked on (aside from the one that were implemented in Django) have their back-end implemented with NodeJs (either ExpressJs or NestJs).</li>",
   },
   {
     title: "PROGRAMMER INTERN",
