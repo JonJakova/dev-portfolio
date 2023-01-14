@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Wikloud",
     cardImage: "assets/images/project-page/wikom_logo.png",
-    description: "Wikloud is a mobile application (React Native) with the functionality to control security panels which works as a point-of-interchange for some of the biggest security panels producers like Crow and  Ajax. Wikloud manages this by communicating directly to the producers cloud system and enabling their  functionalities directly to the mobile app.  The back-end for this app was written in JAVA with Spring Boot, following a microservice-based architecture and than dockerized using Docker Stack. The architecture of the project is based on Netflix back-end  architecture with the use of Spring Cloud Netflix, Zuul Gateway and Eureka Server among others. While being part of the team, my duties are these of architect and team leader.",
+    description: "Wikloud is a mobile application (React Native) with the functionality to control security panels which works as a point-of-interchange for some of the biggest security panels producers like Crow and  Ajax. Wikloud manages this by communicating directly to the producers cloud system and enabling their functionalities directly from the mobile app.  The back-end for this app was written in JAVA with Spring Boot, following a microservice-based architecture and than dockerized using Docker Stack. The architecture of the project is based on Netflix back-end  architecture with the use of Spring Cloud Netflix, Zuul Gateway and Eureka Server among others. While being part of the team, my duties are these of architect and team leader.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://www.wikom.it/servizi-event-management/",
   },
