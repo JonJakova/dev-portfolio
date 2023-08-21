@@ -5,10 +5,24 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/currant_logo.jpeg",
+    place: "Currant",
+    time: "(June, 2023 - present)",
+    desp: "Construction of the architecture and the implementation of said architecture for Flexymob, the online platform used to faciliated mobility.",
+  },
+  {
+    title: "Software Trainer",
+    cardImage: "assets/images/experience-page/sabanet_log.jpeg",
+    place: "Sabanet Albania",
+    time: "(June, 2023 - present)",
+    desp: "Train new recruits in Software Development starting from general programming paradigm in Java up to advance Spring Boot skills.",
+  },
+  {
     title: "CHIEF TECHNOLOGY OFFICERS",
     cardImage: "assets/images/experience-page/sabanet_log.jpeg",
     place: "Sabanet Albania",
-    time: "(June, 2021 - present)",
+    time: "(June, 2021 - June 2023)",
     desp: "As the CTO at Sabanet Albania, my main duties consist of (but are not limited to): <li>Managing the development team.</li> <li>Making key software architectural decision.</li> <li>Identifying risks and mitigating them.</li><li>Interviewing candidates for technical positions.</li><li>Enabling communication between our team and our oversea colleagues.</li>",
   },
   {
